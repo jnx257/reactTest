@@ -14,9 +14,9 @@ async function loginDB(handleLogic) {
       .then((response) => response.json)
       .then((data, response) => {
         console.log("login auth", data);
-        const loginPopup = document.querySelector(".loginPopup");
-        setTimeout(() => (loginPopup.style.display = "none"), 5000);
-        if(response){
+        const loginPopup = document.querySelector(".popup");
+        setTimeout(() => (loginPopup.style.display = "content"), 5000);
+        if(response = true){
           loginPopup.style.display = "block";
         }
       })

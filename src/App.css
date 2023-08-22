@@ -41,11 +41,17 @@
   color: #888;
 }
 
-.loginPopup{
-  display:none;
-  position: absolute;
-  padding: auto;
+.loginBox {
+  border: 5px solid black;
+  border-radius: 5px;
+  padding: 10px;
 }
-.loginBox{
-  border: 1px,solid,red;
+.popup {
+  display: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  z-index: 1;
+  margin: 10px;
+  padding: 10px;
+  background-color: greenyellow;
 }

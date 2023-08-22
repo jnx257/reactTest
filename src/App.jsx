@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import loginDB from './login'
-import PopUp from './PopUp'
+import Popup from './Popup'
 
 function App() {
   const [email, setEmail] = useState('')
@@ -29,7 +29,7 @@ function App() {
     <br></br>  
        <button type='submit' onClick={loginDB}>Sign-in</button> <button> Don't have an account?</button>
     </div>
-    <PopUp/>
+    <Popup/>
     </>
   )
 }
