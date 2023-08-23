@@ -13,12 +13,10 @@ async function loginDB(handleLogic) {
     })
       .then((response) => response.json)
       .then((data, response) => {
-        console.log("login auth", data);
+        console.log("login auth");
         const loginPopup = document.querySelector(".popup");
-        setTimeout(() => (loginPopup.style.display = "content"), 5000);
-        if(response = true){
-          loginPopup.style.display = "block";
-        }
+        loginPopup.style.display = "block"
+      setTimeout(() => (loginPopup.style.display = "none"), 5000);
       })
       .catch((error) => console.log(error));
   }

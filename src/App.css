@@ -48,10 +48,14 @@
 }
 .popup {
   display: none;
+  position: fixed;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
   border: 2px solid black;
   border-radius: 5px;
-  z-index: 1;
-  margin: 10px;
-  padding: 10px;
-  background-color: greenyellow;
+  z-index: 1; 
+  padding: 10px; 
+  width: 200px; 
+  background-color: #50C878;
 }
