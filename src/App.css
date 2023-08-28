@@ -41,10 +41,21 @@
   color: #888;
 }
 
+.loginBox input{
+
+  margin: 5px;
+}
 .loginBox {
   border: 5px solid black;
   border-radius: 5px;
-  padding: 10px;
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  padding: 10px; 
+  width: 350px; 
+  height: 300px;
+  transform: translate(-50%, -50%); 
+
 }
 .popup {
   display: none;
