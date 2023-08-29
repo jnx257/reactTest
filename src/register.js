@@ -20,10 +20,11 @@ const password = document.querySelector(".password").value;
     .then((response) => response.json)
     .then((data) => {
       console.log("account registered sucessfully", data);
-    //   const loginPopup = document.querySelector(".PopUp");
-    //   loginPopup.style.display = "block";
-    //   setTimeout(() => (loginPopup.style.display = "none"), 5000);
+      const registerPopup = document.querySelector(".popupRegister");
+      registerPopup.style.display = "block";
+      setTimeout(() => (registerPopup.style.display = "none"), 5000);
       console.log(body);
+      setTimeout(() => (location.replace("/")), 7000);
     })
     .catch((error)=>console.log(error))
 }

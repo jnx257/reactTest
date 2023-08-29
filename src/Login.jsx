@@ -19,7 +19,6 @@ function App() {
   return (
     <>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"></link>
-    <Link to="/login"></Link>
     <div className='loginBox'>
     <h1>Login page</h1>
     <br/>

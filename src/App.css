@@ -57,7 +57,20 @@
   transform: translate(-50%, -50%); 
 
 }
-.popup {
+.popupLogin {
+  display: none;
+  position: fixed;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  border: 2px solid black;
+  border-radius: 5px;
+  z-index: 1; 
+  padding: 10px; 
+  width: 200px; 
+  background-color: #50C878;
+}
+.popupRegister{
   display: none;
   position: fixed;
   top: 50%; 
